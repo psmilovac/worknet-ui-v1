@@ -1,0 +1,23 @@
+.button {
+  font-size: 0.8rem;
+  /* display: inline-flex; */
+  text-align: center;
+  background-color: var(--focus);
+  color: var(--white);
+  padding: 0.4rem 0.7rem;
+  margin: 0.5rem 0.1rem 0 0.1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  /* width: 100%; */
+
+  /* background-color: ${(props) => props.variant === "sucess" ? "#198754"}; */
+}
+
+.button:hover,
+.button:active {
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+  /* background-color : var(--focus); */
+
+}
+

@@ -1,0 +1,87 @@
+.watermark {
+  display: none;
+  position: fixed;
+  top: 50vh;
+  z-index: -9;
+  width: 50vw;
+  page-break-after: always;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+}
+
+.report_container {
+  page-break-after: always;
+  width: 100%;
+}
+
+.report_header {
+  display: table-header-group;
+  /* display: flex; */
+  text-align: left;
+  
+}
+
+.report_footer {
+  display: table-footer-group;
+}
+
+
+
+.header_info {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  /* height: 50px; */
+  font-size: 0.75rem;
+  margin-bottom: 15px;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.footer_info  {
+  /* display: none; */
+  height: 50px;
+}
+
+.page_footer {
+  position: fixed;
+  /* z-index: 9; */
+  bottom: -30px;
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  color: #fff;
+  /* background: red; */
+  opacity: 1;
+  page-break-after: always;
+  
+}
+
+/* .footer_info::after {
+  content:  "Page " counter(page) " of " counter(pages);
+  counter-increment: page;
+} */
+
+.main{
+  font-size: 0.8rem;
+}
+
+@media print {
+ 
+
+  .watermark {
+    /* display: block; */
+    display: none;
+    counter-increment: page;
+    position: fixed;
+  }
+
+  .page_footer,
+  .footer_info {
+    display: block;
+  }
+
+  
+
+}

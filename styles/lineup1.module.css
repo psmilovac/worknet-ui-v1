@@ -1,0 +1,35 @@
+.lineup1 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /* align-items: center; */
+  }
+  
+  /* display individual unit1 as a column */
+  .unit1_column {
+    background-color: white;
+    border: 0.5px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-right: 1px solid var(--third);
+  }
+  
+  .unit1_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /*set here the size of the image and entire 1 */
+    background-color: var(--third);
+    text-align: center;
+    padding: 1px;
+    background-color: white;
+    /* border: 1px solid black; */
+  }
+  
+  .unit1_row_image {
+    width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,27 @@
+.button {
+  /* display: inline-flex; */
+  width: 100%;
+  text-align: center;
+  background-color: var(--off-white-gray);
+  color: var(--foreground);
+  padding: 0.3rem 0.2rem;
+  font-size: 0.8rem;
+  margin: .15rem 0px;
+  border: 0.5px solid var(--ps-darkgray);
+  cursor: pointer;
+  border-radius: 2px;
+  /* width: 100%; */
+  /* padding: 0.6rem 2rem; */
+  /* font-size: 0.9rem; */
+  /* background-color: ${(props) => props.variant === "sucess" ? "#198754"}; */
+}
+
+
+.button:hover,
+.button:active {
+  background-image: linear-gradient(rgba(65, 65, 65, 0.05) 0 0)
+}
+
+.button:focus {
+  background-image: linear-gradient(rgb(0 0 0/5%) 0 0)
+}

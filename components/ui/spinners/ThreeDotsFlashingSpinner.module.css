@@ -1,0 +1,51 @@
+.backdrop {
+
+}
+
+.spinner {
+  position: relative;
+  top:8px; /*was 18 when was next to the lineup1 name */
+  left:40px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #494949;
+  color: #494949;
+  animation: spinner 1s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+.spinner::before, .spinner::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.spinner::before {
+  left: -12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #494949;
+  color: #494949;
+  animation: spinner 1s infinite alternate;
+  animation-delay: 0s;
+}
+.spinner::after {
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #494949;
+  color: #494949;
+  animation: spinner 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes spinner {
+  0% {
+    background-color: #494949;
+  }
+  50%, 100% {
+    background-color: rgba(75, 75, 75, 0.2);
+  }
+}

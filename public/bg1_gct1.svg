@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="GCT" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 600">
+    <defs>
+        <style>.cls-1{fill:none;stroke:#434b9f;stroke-miterlimit:10;}.cls-2{fill:#231f20;font-family:ArialMT,
+            Arial;font-size:14px;}.cls-3{letter-spacing:-.06em;}</style>
+    </defs>
+    <g id="GCT1">
+        <text class="cls-2" transform="translate(120.22 578)">
+            <tspan x="0" y="0">(1) C</tspan>
+            <tspan class="cls-3" x="31.11" y="0">T</tspan>
+            <tspan x="38.89" y="0">-G</tspan>
+        </text>
+        <g>
+            <path class="cls-1" d="m159.74,552.13c0-1.69,1.37-3.06,3.06-3.06s3.06,1.37,3.06,3.06" />
+            <path class="cls-1" d="m153.61,552.13c0-1.69,1.37-3.06,3.06-3.06s3.06,1.37,3.06,3.06" />
+            <line class="cls-1" x1="165.87" y1="552.13" x2="165.87" y2="564.36" />
+            <line class="cls-1" x1="153.61" y1="552.13" x2="153.61" y2="561.05" />
+            <line class="cls-1" x1="159.74" y1="552.13" x2="159.74" y2="559.39" />
+            <g>
+                <line class="cls-1" x1="156.02" y1="561.05" x2="151.21" y2="561.05" />
+                <line class="cls-1" x1="155.29" y1="562.73" x2="151.93" y2="562.73" />
+                <line class="cls-1" x1="154.46" y1="564.36" x2="152.76" y2="564.36" />
+            </g>
+        </g>
+    </g>
+</svg>

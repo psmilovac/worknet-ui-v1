@@ -1,0 +1,76 @@
+.backdrop {
+  /* top: 0;
+  left: 0;
+  width: 0%; */
+}
+
+
+/* .spinner {
+  position: relative;
+  top: 10px;
+  width: 22px;
+  aspect-ratio: 2;
+  --_g: no-repeat radial-gradient(circle closest-side,#4a4a4a 90%,#0000);
+  background: 
+    var(--_g) 0%   50%,
+    var(--_g) 50%  50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 50%;
+  animation: d3 1.3s infinite ease-in-out ;
+}
+
+@keyframes d3 {
+  20%{background-position:0%   0%, 50%  50%,100%  50%}
+  40%{background-position:0% 100%, 50%   0%,100%  50%}
+  60%{background-position:0%  50%, 50% 100%,100%   0%}
+  80%{background-position:0%  50%, 50%  50%,100% 100%}
+} */
+
+
+
+
+.spinner {
+  position: relative;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #494949;
+  color: #494949;
+  animation: spinner 1s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+.spinner::before, .spinner::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.spinner::before {
+  left: -10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #494949;
+  color: #494949;
+  animation: spinner 1s infinite alternate;
+  animation-delay: 0s;
+}
+.spinner::after {
+  left: 10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  background-color: #494949;
+  color: #494949;
+  animation: spinner 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes spinner {
+  0% {
+    background-color: #494949;
+  }
+  50%, 100% {
+    background-color: rgba(75, 75, 75, 0.2);
+  }
+}

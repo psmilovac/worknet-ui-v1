@@ -1,0 +1,34 @@
+{
+  "lineup1": [
+    {
+      "lineup1_current": 1200,
+      "lineup1_enclosure": null,
+      "lineup1_id": 2,
+      "lineup1_job": null,
+      "lineup1_kaic": 50,
+      "lineup1_name": "Test Unit 2",
+      "lineup1_note": null,
+      "lineup1_voltage": 15000
+    },
+    {
+      "lineup1_current": 1200,
+      "lineup1_enclosure": null,
+      "lineup1_id": 1,
+      "lineup1_job": null,
+      "lineup1_kaic": 50,
+      "lineup1_name": "Test Unit",
+      "lineup1_note": null,
+      "lineup1_voltage": 15000
+    },
+    {
+      "lineup1_current": 1200,
+      "lineup1_enclosure": null,
+      "lineup1_id": 3,
+      "lineup1_job": null,
+      "lineup1_kaic": 50,
+      "lineup1_name": "Test Unit",
+      "lineup1_note": null,
+      "lineup1_voltage": 15000
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+.container{
+  display: flex;
+}
+
+.sidebar{
+  position: sticky;
+  top: 3.8rem;
+  height: 100%;
+  padding: 0rem 1rem 0rem 1rem;
+  width: 17rem;
+  /* z-index: 100; this produced sidebar as an active area when modal is pressed  */
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: all 0.1s linear;
+}
+
+.product{
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+}
+
+.product_name{
+  font-size: 1.1rem;
+  font-weight: 600; 
+  font-family: "Roboto", sans-serif; 
+}
+
+
+
+.product_description{
+  font-size: 0.85rem;
+  opacity: 0.8;
+  /* font-weight: 600; */
+  /* font-family: 'Lato', sans-serif;  */
+  /* font-family: "Roboto", sans-serif;  */
+}
+
+.product_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--gray);
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  /* background-color: burlywood; */
+}
+
+/* ul li {list-style-type: none;} */
+
+.sidebar_title{
+  margin: 2rem 0 0.8rem 0;
+  font-size: 1.1rem;
+  font-weight: 600; 
+  font-family: "Roboto", sans-serif; 
+}
+
+.sidebar_items {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu_item {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.7rem 0.4rem 0.7rem;
+  opacity: 0.8;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.submenu_item:hover{
+  opacity: 1;
+}
+
+.submenu_item:active{
+  color: blue;
+}

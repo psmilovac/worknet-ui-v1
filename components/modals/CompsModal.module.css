@@ -1,0 +1,81 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+}
+
+.container {
+  margin: 0rem 0 0 0;
+  width: 33rem;
+  height: 100%;
+  overflow-y:auto;
+  background: white;
+  border-radius: 0px;
+  padding: 15px;
+}
+
+.header {
+    position: absolute;
+    display: block;
+    justify-content: "end";
+    font-size: 25px;
+    /* font-weight: 400; */
+    /* background-color: aqua; */
+}
+
+
+.content {
+  padding: 0.5rem;
+}
+
+
+.close_button {
+  position: absolute;
+  right: -540px;
+  /* top: 16px; */
+  overflow-y: visible;
+  text-align: right;
+  justify-content: flex-end;
+  cursor: pointer;
+  background-image: none;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0;
+  appearance: button;
+  color: white;
+}
+
+
+
+
+.card1 {
+    background-color: #fff;
+    border: 1px solid transparent; /* need for no moving on hover */
+    /* box-shadow: 0 3px 6px -2px rgba(50, 50, 93, 0.25),
+      0 2px 3px -3px rgba(0, 0, 0, 0.3); */
+    border-radius: 0rem;
+  }
+  
+  .card1:hover,
+  .card1:active {
+    /* background-color: #fff; */
+    border: 1px solid var(--select);
+    box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+      0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  }
+
+  
+.more{
+  border: none;
+  background-color: none;
+  background: none;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.button {
+  font-size: 0.8rem;
+  /* display: inline-flex; */
+  text-align: center;
+  background-color: var(--white);
+  color: var(--black);
+  padding: 0.2rem 0rem 0rem 0rem ;
+  margin: 0rem 0.1rem 0 0.1rem;
+  border: solid black 1px;
+  cursor: pointer;
+  border-radius: 2px;
+  min-width: 40px; 
+  height:32px;
+  stroke: white;
+  fill: white
+
+  /* background-color: ${(props) => props.variant === "sucess" ? "#198754"}; */
+}
+
+.button:hover,
+.button:active {
+  background-image: linear-gradient(rgb(0 0 0/9%) 0 0);
+}
+
+.button:focus {
+  /* background-image: linear-gradient(rgb(0 0 0/20%) 0 0); */
+  /* background-color : var(--focus); */
+}
+
+.button_active {
+  font-size: 0.8rem;
+  /* display: inline-flex; */
+  text-align: center;
+  background-color: var(--focus);
+  color: var(--white);
+  /* padding: 0.3rem 0.7rem; */
+  /* margin: 1rem 0.1rem; */
+  border: none;
+  cursor: pointer;
+  /* background-color: ${(props) => props.variant === "sucess" ? "#198754"}; */
+}
+
+.button_active:hover,
+.button_active:active {
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+}
+
+.button_active:focus {
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+}

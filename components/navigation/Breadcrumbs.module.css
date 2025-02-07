@@ -1,0 +1,23 @@
+.breadcrumb{
+    font-size: 0.8rem;
+    opacity: 0.8;
+    /* margin-right: 0.3rem;
+    margin-left: 0.3rem; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.breadcrumb_item{
+    margin-right: 0.2rem;
+    
+}
+
+.breadcrumb:hover{
+    opacity: 1;
+    color: var(--focus);
+}
+
+.breadcrumb_container{
+    display: flex;
+}

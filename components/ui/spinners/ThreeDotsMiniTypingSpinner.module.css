@@ -1,0 +1,27 @@
+.backdrop {
+  /* top: 0;
+  left: 0;
+  width: 0%; */
+}
+
+
+.spinner {
+  position: relative;
+  /* top: 10px; */
+  width: 20px;
+  aspect-ratio: 2;
+  --_g: no-repeat radial-gradient(circle closest-side,#4a4a4a 90%,#45454500);
+  background: 
+    var(--_g) 0%   50%,
+    var(--_g) 50%  50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 50%;
+  animation: d3 1.3s infinite ease-in-out ;
+}
+
+@keyframes d3 {
+  20%{background-position:0%   0%, 50%  50%,100%  50%}
+  40%{background-position:0% 100%, 50%   0%,100%  50%}
+  60%{background-position:0%  50%, 50% 100%,100%   0%}
+  80%{background-position:0%  50%, 50%  50%,100% 100%}
+}

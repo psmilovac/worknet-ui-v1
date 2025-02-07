@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="CPT" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 600">
+    <defs>
+        <style>
+            .cls-1{letter-spacing:-.07em;}.cls-2{letter-spacing:-.06em;}.cls-3{fill:#2e3192;}.cls-4{letter-spacing:0em;}.cls-5{letter-spacing:-.02em;}.cls-6{letter-spacing:0em;}.cls-7{fill:#231f20;font-family:ArialMT,
+            Arial;font-size:14px;}.cls-8{fill:none;stroke:#2e3192;stroke-linecap:round;stroke-miterlimit:10;}.cls-9{letter-spacing:-.02em;}</style>
+    </defs>
+    <g id="CPT3">
+        <text class="cls-7" transform="translate(127.69 425.27)">
+            <tspan x="0" y="0">(1) FUSE</tspan>
+            <tspan class="cls-5" x="58.34" y="0"> </tspan>
+            <tspan class="cls-4" x="61.97" y="0">TR.</tspan>
+        </text>
+        <text class="cls-7" transform="translate(128.54 478.58)">
+            <tspan x="0" y="0">(1) CP</tspan>
+            <tspan class="cls-9" x="40.45" y="0">T</tspan>
+            <tspan class="cls-6" x="48.75" y="0" xml:space="preserve"> FIX</tspan>
+        </text>
+        <g>
+            <line class="cls-8" x1="112.8" y1="300.7" x2="112.8" y2="396.48" />
+            <circle class="cls-3" cx="112.8" cy="300.7" r="2.26"
+                transform="translate(-208.18 289.84) rotate(-67.5)" />
+        </g>
+        <line class="cls-8" x1="112.76" y1="409.07" x2="112.76" y2="399.47" />
+        <rect class="cls-8" x="107.83" y="409.07" width="9.82" height="22.82" />
+        <line class="cls-8" x1="108.29" y1="412.07" x2="117.65" y2="412.07" />
+        <line class="cls-8" x1="107.83" y1="428.88" x2="117.65" y2="428.88" />
+        <line class="cls-8" x1="106.38" y1="471.91" x2="106.38" y2="467.31" />
+        <line class="cls-8" x1="119.14" y1="471.91" x2="119.14" y2="467.31" />
+        <path class="cls-8" d="m112.76,471.91c0,2.15-1.43,3.89-3.19,3.89s-3.19-1.74-3.19-3.89" />
+        <path class="cls-8" d="m119.14,471.91c0,2.15-1.43,3.89-3.19,3.89s-3.19-1.74-3.19-3.89" />
+        <line class="cls-8" x1="112.76" y1="471.99" x2="112.76" y2="444.48" />
+        <line class="cls-8" x1="112.8" y1="396.48" x2="117.13" y2="399.28" />
+        <line class="cls-8" x1="112.76" y1="399.47" x2="117.17" y2="402.46" />
+        <line class="cls-8" x1="119.14" y1="482.31" x2="119.14" y2="486.92" />
+        <line class="cls-8" x1="106.38" y1="482.31" x2="106.38" y2="486.92" />
+        <path class="cls-8" d="m112.76,482.31c0-2.15,1.43-3.89,3.19-3.89s3.19,1.74,3.19,3.89" />
+        <path class="cls-8" d="m106.38,482.31c0-2.15,1.43-3.89,3.19-3.89s3.19,1.74,3.19,3.89" />
+        <line class="cls-8" x1="108.41" y1="402.27" x2="112.74" y2="399.47" />
+        <line class="cls-8" x1="108.39" y1="399.47" x2="112.8" y2="396.48" />
+        <line class="cls-8" x1="112.76" y1="481.81" x2="112.78" y2="494.53" />
+        <line class="cls-8" x1="112.76" y1="431.88" x2="112.76" y2="441.48" />
+        <line class="cls-8" x1="112.72" y1="444.48" x2="108.39" y2="441.67" />
+        <line class="cls-8" x1="112.76" y1="441.48" x2="108.35" y2="438.49" />
+        <line class="cls-8" x1="117.1" y1="438.68" x2="112.78" y2="441.48" />
+        <line class="cls-8" x1="117.13" y1="441.48" x2="112.72" y2="444.48" />
+    </g>
+</svg>

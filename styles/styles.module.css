@@ -1,0 +1,501 @@
+/* --------------FORM------------- */
+
+.form_select {
+  font-size: 0.8rem;
+  border-color: var(--focus);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 6px;
+  /* border: none; */
+
+  margin: 0px;
+  padding: 0.3rem 0 0.3rem 0;
+  border: 0;
+  border: 1px solid var(--gray);
+  border-radius: 0.2rem;
+  margin: auto 0;
+  height: 2rem;
+  padding: 0 0.3rem 0 0.3rem;
+  /* width: 10rem; */
+}
+.lineup1 .form_select:focus {
+  outline: none;
+  box-shadow: 0px 0px 1px 1px var(--focus) inset;
+}
+
+/* Input Text */
+
+.row_input_text {
+  border-color: var(--focus);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.row_input_text input {
+  font-size: 0.8rem;
+  border: 0;
+  border: 1px solid var(--gray);
+  border-radius: 0.2rem;
+  margin: auto 0;
+  height: 2rem;
+  padding-left: 0.7rem;
+  /* width: 12rem; */
+}
+
+.row_input_text input:focus {
+  outline: none;
+  box-shadow: 0px 0px 1px 1px var(--focus) inset;
+}
+
+@media (max-width: 780px) {
+  .row_input_text {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .form_select {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .main_container{
+    margin:1rem
+  }
+}
+
+
+/* plain input text */
+.input_text {
+  border-color: var(--focus);
+  display: flex;
+  flex-direction: row;
+  /* justify-content: left; */
+  align-items: center;
+  gap: 10px;
+  border: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.input_text input {
+  border: 0;
+  border: 1px solid var(--gray);
+  border-radius: 0.2rem;
+  margin: auto 0;
+  height: 2rem;
+  padding-left: 0.7rem;
+  width: 12rem;
+}
+
+.input_text input:focus {
+  outline: none;
+  box-shadow: 0px 0px 1px 1px var(--focus) inset;
+}
+
+/* --------------PAGINATION------------ */
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+
+.image_setup {
+  margin-top: 3rem;
+  filter: drop-shadow(0 0 0.15rem rgb(193, 193, 193));
+}
+
+/* -------------- TABLE------------ */
+
+ /* CONTENT TABLE */
+
+.content_table {
+  border-collapse: collapse;
+  border-spacing: 1px;
+  border: 1px solid var(--darkgray);
+  border-radius: 3px;
+  color: var(--foreground);
+
+  /* width: calc(100vw - 40rem); */
+  /* width: min(900px, 100%-3rem); */
+  /* overflow: scroll; */
+  margin: 0.3rem auto;
+  padding: 0 1rem 0 0;
+  margin: 0.3rem 1rem 0 0;
+  margin-inline: auto;
+  
+  font-size: 0.8em;
+  width: 100%;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  /* padding: 2rem 0rem 0rem 1rem; */
+  /* important */
+  overflow-x: auto;  
+}
+
+.content_table td th {
+  
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+}
+
+.content_table th {
+  /* background-color: var(--ps-darkgray); */
+  /* background-color: rgb(0, 0, 85); */
+  background-color: var( --ps-lightblue2);
+
+  /* color: white; */
+  /* color: var(--foreground); */
+  padding: 0.6rem 0.6rem;
+  text-align: left;
+  /* align-items: baseline; */
+  font-size: 0.8rem;
+  /* position: sticky; */
+  /* top: 0; */
+  
+}
+
+.content_table td {
+  padding: 0.7rem 0.6rem;
+  text-align: left;
+  /* white-space: pre; */
+  vertical-align: text-top;
+}
+
+.content_table td ul li {
+  list-style-type: none;
+}
+
+.content_table tbody tr {
+  border-bottom: 1px solid var(--lightgray);
+}
+
+.content_table tbody tr:nth-of-type(even) {
+  background-color: var(--off-white-gray);
+}
+
+.table_link:hover {
+  /* font-weight: 500; */
+  color: var(--focus);
+  cursor: pointer;
+}
+
+.inside_table_button {
+  display: block;
+  text-align: left;
+  padding: 0.2rem 0rem;
+  min-width: 2rem;
+  /* border: solid 1px rgba(0, 0, 0, 0); */
+}
+
+.inside_table_button:hover {
+  font-weight: 600;
+  border-radius: 0.2rem;
+  backdrop-filter: brightness(95%);
+}
+
+
+/*  BOM TABLE  */
+.bom_table_wrapper{
+  width: min(900px, 100% -3rem);
+  margin-inline: auto;
+}
+
+.bom_table_container{
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.bom_table{
+  width: 100%;
+  border-collapse: collapse;
+  /* margin: 0; */
+  /* background: #323232; */
+  /* color: white */
+  
+}
+
+.bom_table caption,
+.bom_table th,
+.bom_table td
+{
+  padding: 0.5rem;
+  text-align: left;
+  font-size: 0.9rem;
+  vertical-align:top;
+}
+
+.bom_table caption {
+  /* background: green; */
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bom_table th {
+  background: var(--alter);
+  color: white;
+}
+
+.bom_table tr:nth-of-type(2n) {
+  background: var(--alter / 0.5%);
+}
+
+.bom_table tbody tr:nth-of-type(even) {
+  background-color: var(--off-white-gray);
+}
+
+
+/* SELECT */
+.select_pedja {
+  font-size: 0.85rem;
+  height: 10px;
+}
+
+/* [LINEUP1_ID]  */
+.lineup1 {
+  /* height: 820px;  */
+  width: auto;
+  min-width: initial;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  box-shadow: 0 3px 6px -2px rgba(50, 50, 93, 0.25),
+    0 2px 3px -3px rgba(0, 0, 0, 0.3);
+  overflow: auto;
+  scroll-snap-type: both mandatory;
+}
+
+.lineup1_print {
+  width: auto;
+  min-width: initial;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+/* display individual unit1 as a column */
+.unit1_column {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: none;
+  border-left: 0.5px dashed var(--lightgray);
+  width: 150px;
+  scroll-snap-align: start;
+}
+
+.unit1_column:last-child{
+  border-right: 0.5px dashed var(--lightgray);
+}
+
+.unit1_column_no_dash {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: none;
+  /* border-left: 0.5px dashed var(--lightgray); */
+  /* width: 150px; */
+}
+
+/* display individual unit1 as a column */
+.lvsection_column {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: none;
+  border-left: 0.5px dashed var(--lightgray);
+  /* width: 150px; */
+  scroll-snap-align: start;
+}
+
+.lvsection_column:last-child{
+  border-right: 0.5px dashed var(--lightgray);
+}
+
+.lvsection_column_no_dash {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: none;
+  /* border-left: 0.5px dashed var(--lightgray); */
+  /* width: 150px; */
+}
+
+.unit1_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 150px; set here the size of the image and entire 1 */
+  /* background-color: var(--third); */
+  text-align: center;
+  padding: 0 0 0 0;
+  /* background-color: white; */
+  border: none;
+  /* border: 1px solid black; */
+}
+
+/* not in use after we removed unit1 name feature */
+.unit1_row_name {
+  display: flex;
+  justify-content: center;
+  justify-items: start;
+  align-items: center;
+  width: 9rem;
+  height: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 0 0 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.unit1_row_name:focus {
+  /* background-color: aqua; */
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.unit1_row_image {
+  width: 100%;
+  height: auto;
+}
+
+/* ICONS */
+
+.icon {
+  /* margin-left: 0.5rem; */
+  /* display: inline-flex; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  font: inherit;
+  border: none;
+  /* background: var(--fifth); */
+  border-radius: 3px;
+  color: var(--sixth);
+  /* color: var(--third); */
+  padding: 0.1rem 0.1rem;
+  cursor: pointer;
+  font-size: x-small;
+  margin: 3px;
+}
+
+.icon svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon:hover {
+  /* color: black; */
+  opacity: 1;
+}
+
+/* LINK */
+.links {
+  font-size: 0.85rem;
+  color: var(--focus);
+  opacity: 1;
+}
+
+.links:hover {
+  color: var(--focus-dark);
+  font-weight: 400;
+  opacity: 1;
+}
+
+/* ~~~~~~~~~~~~ CARD ~~~~~~~~~~~~~ */
+
+.card1 {
+  background-color: #fff;
+  border: 2px solid transparent; /* need for no moving on hover */
+  box-shadow: 0 3px 6px -2px rgba(50, 50, 93, 0.25),
+    0 2px 3px -3px rgba(0, 0, 0, 0.3);
+  border-radius: 0.2rem;
+}
+
+.card1:hover,
+.card1:active {
+  /* background-color: #fff; */
+  border: 2px solid var(--select);
+  box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+    0 3px 7px -3px rgba(0, 0, 0, 0.3);
+}
+
+/* ~~~~~~~~~~~~ CARD2 ~~~~~~~~~~~~~ */
+/* with slightly smaller borders than card 1.  */
+/* used in the main lineup1 diagrams */
+
+.card2 {
+  background-color: #fff;
+  border: 1px solid transparent; /* need for no moving on hover */
+  box-shadow: 0 3px 6px -2px rgba(92, 92, 92, 0.25),
+    0 1px 3px -3px rgba(0, 0, 0, 0.3);
+  border-radius: 0rem;
+}
+
+.card2:hover,
+.card2:active {
+  /* background-color: #fff; */
+  border: 1px solid var(--foreground);
+  box-shadow: 0 6px 12px -2px rgba(183, 183, 183, 0.25),
+    0 3px 7px -3px rgba(0, 0, 0, 0.5);
+}
+
+/* ~~~~~~~~~~~~~~~~~~ TEXT ~~~~~~~~~~~~~~~~~~~~~ */
+.text_button {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.text_button:hover,
+.text_button:active {
+  opacity: 1;
+  color: blue;
+  cursor: pointer;
+}
+
+.info_text {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.side_nav_text{
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+.side_nav_text:hover,
+.side_nav_text:active{
+  opacity: 1;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~ SMALL CONTROL ICONS ~~~~~~~~~~~~~~~~~~  */
+.ctrl_icons_sm {
+  font-size: 0.85rem;
+  opacity: 0.4;
+}
+
+.ctrl_icons_sm:hover {
+  opacity: 1;
+}
+
+
+
+/* ```````````````````````````````````````````````````````````````````` */

@@ -1,0 +1,15 @@
+.breadcrumb{
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-right: 0.5rem;
+}
+
+.breadcrumb:hover{
+    opacity: 1;
+    color: var(--focus);
+}
+
+.breadcrumb_container{
+    display: flex;
+    
+}

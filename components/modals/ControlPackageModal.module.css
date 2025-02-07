@@ -1,0 +1,98 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+}
+
+.container {
+  margin: 0rem 0 0 0;
+  width: 33rem;
+  height: 100%;
+  overflow-y:auto;
+  background: white;
+  border-radius: 0px;
+  padding: 15px;
+}
+
+
+
+.content {
+  padding: 0.5rem;
+}
+
+
+.card1 {
+  background-color: #fff;
+  border: 2px solid transparent; /* need for no moving on hover */
+  box-shadow: 0 3px 6px -2px rgba(50, 50, 93, 0.25),
+    0 2px 3px -3px rgba(0, 0, 0, 0.3);
+  border-radius: 0.2rem;
+}
+
+.card1:hover,
+.card1:active {
+  /* background-color: #fff; */
+  border: 2px solid var(--select);
+  box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+    0 3px 7px -3px rgba(0, 0, 0, 0.3);
+}
+
+.form_select {
+  border-color: var(--focus);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  /* gap: 10px; */
+  /* border: none; */
+
+
+  /* padding: 0.5rem 0 0.5rem 0; */
+  border: 0;
+  border: 1px solid var(--gray);
+  border-radius: 0.2rem;
+  margin: 0.5rem 0 0.5rem 0;
+  height: 2.2rem;
+  padding: 0 3rem 0 0.7rem;
+  /* width: 10rem; */
+}
+
+.form_select:focus {
+  outline: none;
+  box-shadow: 0px 0px 1px 1px var(--focus) inset;
+}
+
+
+.dropdown_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  border: 1px solid var(--gray);
+  padding: 0 1rem;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 5px;
+  background-color: var(--background);
+  
+
+}
+
+.more{
+  border: none;
+  background-color: none;
+  background: none;
+  cursor: pointer;
+}
+
+.info_text{
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin:0.5rem 0 0 0;
+}

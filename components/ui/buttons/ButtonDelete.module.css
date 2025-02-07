@@ -1,0 +1,21 @@
+.button {
+  /* display: inline-flex; */
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 0.43rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.85rem;}
+  
+
+
+.button:hover,
+.button:active {
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0)
+}
+
+.button:focus {
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0)
+}

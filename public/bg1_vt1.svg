@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="VT" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226 600">
+    <defs>
+        <style>.cls-1{letter-spacing:-.02em;}.cls-2{fill:none;stroke:#2e3192;stroke-miterlimit:10;}.cls-3{fill:#231f20;font-family:ArialMT,
+            Arial;font-size:14px;}</style>
+    </defs>
+    <g id="VT1">
+        <text class="cls-3" transform="translate(120.45 512.04)">
+            <tspan x="0" y="0">(3) V</tspan>
+            <tspan class="cls-1" x="30.34" y="0">T</tspan>
+            <tspan x="38.64" y="0" xml:space="preserve"> -</tspan>
+            <tspan class="cls-1" x="47.19" y="0" xml:space="preserve"> Y</tspan>
+        </text>
+        <g>
+            <g>
+                <line class="cls-2" x1="112.98" y1="515.95" x2="97.64" y2="516.18" />
+                <line class="cls-2" x1="97.64" y1="516.18" x2="93.93" y2="510.46" />
+                <line class="cls-2" x1="93.52" y1="516.07" x2="89.57" y2="510.23" />
+                <line class="cls-2" x1="86.97" y1="516.07" x2="93.52" y2="516.07" />
+                <rect class="cls-2" x="74.72" y="508.71" width="9.82" height="14.68"
+                    transform="translate(595.68 436.42) rotate(90)" />
+                <line class="cls-2" x1="84.03" y1="511.6" x2="84.03" y2="520.96" />
+                <line class="cls-2" x1="74.83" y1="511.14" x2="74.83" y2="520.96" />
+                <line class="cls-2" x1="65.4" y1="509.19" x2="68.36" y2="509.19" />
+                <line class="cls-2" x1="65.4" y1="523.36" x2="68.36" y2="523.36" />
+                <path class="cls-2" d="m65.4,516.28c-1.38,0-2.5-1.59-2.5-3.54s1.12-3.54,2.5-3.54" />
+                <path class="cls-2" d="m65.4,523.36c-1.38,0-2.5-1.59-2.5-3.54s1.12-3.54,2.5-3.54" />
+                <line class="cls-2" x1="65.4" y1="516.28" x2="72.29" y2="516.28" />
+                <line class="cls-2" x1="97.65" y1="516.05" x2="93.93" y2="521.78" />
+                <line class="cls-2" x1="93.53" y1="516.16" x2="89.57" y2="522" />
+            </g>
+            <g>
+                <line class="cls-2" x1="22.1" y1="516.51" x2="26.39" y2="516.51" />
+                <line class="cls-2" x1="26.14" y1="516.37" x2="29.86" y2="522.1" />
+                <line class="cls-2" x1="30.26" y1="516.49" x2="34.22" y2="522.33" />
+                <line class="cls-2" x1="36.82" y1="516.49" x2="30.26" y2="516.49" />
+                <rect class="cls-2" x="39.25" y="509.17" width="9.82" height="14.68"
+                    transform="translate(-472.35 560.66) rotate(-90)" />
+                <line class="cls-2" x1="39.75" y1="520.96" x2="39.75" y2="511.6" />
+                <line class="cls-2" x1="48.95" y1="521.41" x2="48.95" y2="511.6" />
+                <line class="cls-2" x1="58.39" y1="523.36" x2="55.42" y2="523.36" />
+                <line class="cls-2" x1="58.39" y1="509.19" x2="55.42" y2="509.19" />
+                <path class="cls-2" d="m58.39,516.28c1.38,0,2.5,1.59,2.5,3.54s-1.12,3.54-2.5,3.54" />
+                <path class="cls-2" d="m58.39,509.19c1.38,0,2.5,1.59,2.5,3.54s-1.12,3.54-2.5,3.54" />
+                <line class="cls-2" x1="58.39" y1="516.28" x2="51.49" y2="516.28" />
+                <line class="cls-2" x1="26.14" y1="516.51" x2="29.85" y2="510.78" />
+                <line class="cls-2" x1="30.26" y1="516.39" x2="34.21" y2="510.55" />
+            </g>
+        </g>
+    </g>
+</svg>

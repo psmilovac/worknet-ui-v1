@@ -1,0 +1,13 @@
+.central_container{
+    /* display: flex; */
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0 1rem;    
+}
+
+
+
+  @media (max-width: 700px) {
+    .central_container {
+        margin: 0;   
+    }
+  }
